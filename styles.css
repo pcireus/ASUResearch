@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: lightblue; 
+  text-align: left;
+}
+.checkboxes {
+  columns: 4 8em;
+}
+.container {
+  background-color: #333;
+  padding: 1rem;
+  width:400px;
+  margin: auto;
+ 
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+  
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
